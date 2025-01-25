@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0 > 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous" /> 
+        <title>IN YOU</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">IN YOU</a>
+            <div class="menuToggle" onclick="toggleMenu();" ></div>
+            <ul class="navigation">
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="Mental-Health-BE-YOU-main\bot\ibm.html" onclick="">Chatbot</a></li>
+                <li><a href="" onclick="toggleMenu();">Games</a></li>
+                <li><a href="C:\Users\prashik\Downloads\Mental-Health-BE-YOU-main\Mental-Health-BE-YOU-main\tweet page\teww.html" onclick="toggleMenu();">community</a></li>
+                <li><a href="#get" onclick="toggleMenu();">Doctors</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Profile</a></li>
+            </ul>
+        </header>
+
+       
+        <section class="banner" id="banner"></section>
+    
+
+       
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){const header= document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+            });
+    
+    
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            
+          }
+
+
+            </script>
+           
+    
+    
+    
+        </body>
+    
+    </html>
